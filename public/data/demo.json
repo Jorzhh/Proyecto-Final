@@ -1,0 +1,2355 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-27T18:42:13.459Z",
+  "demo_default_species": "Zea mays",
+  "period": {
+    "start": "2025-11-14",
+    "end": "2026-11-13"
+  },
+  "attribution": {
+    "globe": "Textura terrestre del repositorio oficial de ejemplos Three.js: https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg",
+    "climate": "Open-Meteo Historical Weather API: https://open-meteo.com/en/docs/historical-weather-api",
+    "soil": "ISRIC SoilGrids v2.0: https://www.isric.org/explore/soilgrids",
+    "biodiversity": "GBIF occurrence data: https://www.gbif.org/occurrence/search",
+    "notice": "Los conteos y registros de GBIF describen datos publicados por sus proveedores; cero registros no demuestra ausencia de la especie. Las propiedades de suelo son predicciones globales a 0-5 cm, no un análisis de parcela."
+  },
+  "locations": [
+    {
+      "id": "guatemala",
+      "name": "Guatemala",
+      "country": "Guatemala",
+      "lat": 14.291,
+      "lon": -89.895,
+      "clima": {
+        "fuente": "Open-Meteo Historical Weather API",
+        "periodo": {
+          "start": "2025-11-14",
+          "end": "2026-11-13"
+        },
+        "dias": 365,
+        "temperatura_media_c": 23.42,
+        "precipitacion_total_mm": 887.4,
+        "radiacion_media_mj_m2_dia": 22.5
+      },
+      "suelo": {
+        "coordenadas": {
+          "lat": 14.291,
+          "lon": -89.895
+        },
+        "fuente": "ISRIC SoilGrids v2.0",
+        "profundidad": "0-5 cm",
+        "propiedades": {
+          "clay": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "phh2o": {
+            "valor": null,
+            "unidad": "pH*10"
+          },
+          "sand": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "soc": {
+            "valor": null,
+            "unidad": "dg/kg"
+          }
+        },
+        "atribucion": "ISRIC SoilGrids"
+      },
+      "ocurrencias": {
+        "Zea mays": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Zea mays",
+          "nombre_aceptado": "Zea mays L.",
+          "taxonKey": 5290052,
+          "disponible": true,
+          "total": 378,
+          "puntos": [
+            {
+              "lat": 13.950842,
+              "lon": -89.563973,
+              "fecha": "2026-07-20T10:44:33",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.95341,
+              "lon": -89.566966,
+              "fecha": "2025-09-29T10:23",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.63333,
+              "lon": -89.56667,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.62059,
+              "lon": -89.621124,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.63333,
+              "lon": -89.56667,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.691342,
+              "lon": -89.618146,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.61667,
+              "lon": -89.61667,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.62059,
+              "lon": -89.621124,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.62059,
+              "lon": -89.621124,
+              "fecha": "2022-01-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.726399,
+              "lon": -90.174234,
+              "fecha": "2021-10-15",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.030366,
+              "lon": -90.037546,
+              "fecha": "2021-10-21",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.726399,
+              "lon": -90.174234,
+              "fecha": "2021-10-15",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.506053,
+              "lon": -89.867534,
+              "fecha": "2021-10-19",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.757051,
+              "lon": -90.285486,
+              "fecha": "2021-10-19",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.039499,
+              "lon": -90.071756,
+              "fecha": "2021-10-21",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.039499,
+              "lon": -90.071756,
+              "fecha": "2021-10-21",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.757051,
+              "lon": -90.285486,
+              "fecha": "2021-10-19",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.726399,
+              "lon": -90.174234,
+              "fecha": "2021-10-15",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.49818,
+              "lon": -89.649858,
+              "fecha": "2021-10-18",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.70082,
+              "lon": -90.25595,
+              "fecha": "2021-10-19",
+              "pais": "Guatemala"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Phaseolus vulgaris": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Phaseolus vulgaris",
+          "nombre_aceptado": "Phaseolus vulgaris L.",
+          "taxonKey": 5350452,
+          "disponible": true,
+          "total": 771,
+          "puntos": [
+            {
+              "lat": 13.83122,
+              "lon": -89.58778,
+              "fecha": "2012-12-03",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.831111,
+              "lon": -89.587778,
+              "fecha": "2012-12-03T00:00",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.9,
+              "lon": -89.66667,
+              "fecha": "2008-07-27",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.5091,
+              "lon": -89.4529,
+              "fecha": "1996",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.4333,
+              "lon": -90.1333,
+              "fecha": "1987-12-07",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.4333,
+              "lon": -90.1333,
+              "fecha": "1987-12-07",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.55,
+              "lon": -89.6333,
+              "fecha": "1987-12-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.55,
+              "lon": -89.6333,
+              "fecha": "1987-12-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.7833,
+              "fecha": "1987-12-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.7833,
+              "fecha": "1987-12-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.7833,
+              "fecha": "1987-12-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6833,
+              "lon": -89.8,
+              "fecha": "1987-12-06",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.4333,
+              "lon": -90.1333,
+              "fecha": "1987",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.55,
+              "lon": -89.6333,
+              "fecha": "1987",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.7833,
+              "fecha": "1987",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.7833,
+              "fecha": "1987",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6833,
+              "lon": -89.8,
+              "fecha": "1987",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.4681,
+              "lon": -90.3689,
+              "fecha": "1986",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.67194,
+              "lon": -89.88722,
+              "fecha": "1978-10-05",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.67,
+              "lon": -89.93,
+              "fecha": "1978-10-05",
+              "pais": "Guatemala"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Solanum lycopersicum": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Solanum lycopersicum",
+          "nombre_aceptado": "Solanum lycopersicum L.",
+          "taxonKey": 2930137,
+          "disponible": true,
+          "total": 143,
+          "puntos": [
+            {
+              "lat": 14.624612,
+              "lon": -89.44925,
+              "fecha": "2026-04-09T11:37:55",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.34734,
+              "lon": -89.55641,
+              "fecha": "2025-03-05",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.34734,
+              "lon": -89.55641,
+              "fecha": "2025-03-05",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.716681,
+              "lon": -90.391988,
+              "fecha": "2025-03-23T16:33:35",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.152442,
+              "lon": -89.677061,
+              "fecha": "2025-03-11T10:08:20",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.597107,
+              "lon": -89.983175,
+              "fecha": "2019-07-23T16:10",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.36631,
+              "lon": -89.39961,
+              "fecha": "2019-10-10",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.36864,
+              "lon": -89.40886,
+              "fecha": "2018-11-29",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.55,
+              "lon": -89.516667,
+              "fecha": "1982-09-10",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.083333,
+              "lon": -90.366667,
+              "fecha": "1982-09-01",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.666667,
+              "lon": -89.5,
+              "fecha": "1982-11-24",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.633333,
+              "lon": -89.966667,
+              "fecha": "1982-12-03",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.583333,
+              "lon": -89.7,
+              "fecha": "1982-12-03",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.633333,
+              "lon": -89.966667,
+              "fecha": "1982-12-03",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.7833,
+              "lon": -89.7667,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.5833,
+              "lon": -89.7001,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.2533,
+              "lon": -90.2788,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6333,
+              "lon": -89.9667,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6667,
+              "lon": -89.5001,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.6333,
+              "lon": -89.9667,
+              "fecha": "1982",
+              "pais": "Guatemala"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Plumeria rubra": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Plumeria rubra",
+          "nombre_aceptado": "Plumeria rubra L.",
+          "taxonKey": 3169674,
+          "disponible": true,
+          "total": 37,
+          "puntos": [
+            {
+              "lat": 14.154896,
+              "lon": -90.141887,
+              "fecha": "2024-04-03T16:31:11",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.33111,
+              "lon": -89.55278,
+              "fecha": "2023-05-08",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.852453,
+              "lon": -90.378903,
+              "fecha": "2023-11-29T12:39:43",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.758049,
+              "lon": -89.532558,
+              "fecha": "2023-11-18T19:58:33Z",
+              "pais": "Guatemala"
+            },
+            {
+              "lat": 14.33124,
+              "lon": -89.55275,
+              "fecha": "2022-09-28",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.36183,
+              "lon": -89.40036,
+              "fecha": "2021-09-21",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.824313,
+              "lon": -89.999917,
+              "fecha": "2020-03-14T15:59:10",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.82764,
+              "lon": -89.99692,
+              "fecha": "2019-04-04",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.82764,
+              "lon": -89.99692,
+              "fecha": "2019-04-04",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.82647,
+              "lon": -89.9965,
+              "fecha": "2018-11-16",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.82647,
+              "lon": -89.9965,
+              "fecha": "2018-11-16",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.8114,
+              "lon": -89.570533,
+              "fecha": "2017-03-27T08:40",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.80719,
+              "lon": -89.55997,
+              "fecha": "2012-08-14",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 14.083,
+              "lon": -89.433,
+              "fecha": "2002-04-30",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.85,
+              "lon": -89.9,
+              "fecha": "2001-06-06",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.85,
+              "lon": -89.9,
+              "fecha": "2001-06-06",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.81667,
+              "lon": -89.98333,
+              "fecha": "2000-03-01",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.81667,
+              "lon": -89.98333,
+              "fecha": "2000-03-01",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.817,
+              "lon": -89.983,
+              "fecha": "2000-03-01",
+              "pais": "El Salvador"
+            },
+            {
+              "lat": 13.81666,
+              "lon": -89.98333,
+              "fecha": "2000-04-05",
+              "pais": "El Salvador"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Arabidopsis thaliana": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Arabidopsis thaliana",
+          "nombre_aceptado": "Arabidopsis thaliana (L.) Heynh.",
+          "taxonKey": 3052436,
+          "disponible": true,
+          "total": 0,
+          "puntos": [],
+          "limite_mostrado": 0,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        }
+      }
+    },
+    {
+      "id": "cordoba",
+      "name": "Córdoba",
+      "country": "España",
+      "lat": 37.888,
+      "lon": -4.779,
+      "clima": {
+        "fuente": "Open-Meteo Historical Weather API",
+        "periodo": {
+          "start": "2025-11-14",
+          "end": "2026-11-13"
+        },
+        "dias": 365,
+        "temperatura_media_c": 18.82,
+        "precipitacion_total_mm": 801.6,
+        "radiacion_media_mj_m2_dia": 18.12
+      },
+      "suelo": {
+        "coordenadas": {
+          "lat": 37.888,
+          "lon": -4.779
+        },
+        "fuente": "ISRIC SoilGrids v2.0",
+        "profundidad": "0-5 cm",
+        "propiedades": {
+          "clay": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "phh2o": {
+            "valor": null,
+            "unidad": "pH*10"
+          },
+          "sand": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "soc": {
+            "valor": null,
+            "unidad": "dg/kg"
+          }
+        },
+        "atribucion": "ISRIC SoilGrids"
+      },
+      "ocurrencias": {
+        "Zea mays": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Zea mays",
+          "nombre_aceptado": "Zea mays L.",
+          "taxonKey": 5290052,
+          "disponible": true,
+          "total": 54,
+          "puntos": [
+            {
+              "lat": 37.875567,
+              "lon": -4.776826,
+              "fecha": "2025-09-29T13:52:31",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.466944,
+              "lon": -4.528333,
+              "fecha": "2021-06-17T18:07:45.237Z",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.800148,
+              "lon": -5.136252,
+              "fecha": "2021-12-09T16:28:24.424Z",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.842037,
+              "lon": -4.860483,
+              "fecha": "2020-03-20T16:44:33.398Z",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.848974,
+              "lon": -4.916444,
+              "fecha": "2020-05-09T08:16:21.173Z",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.6436,
+              "lon": -4.37306,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.643611,
+              "lon": -4.373056,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3008,
+              "lon": -4.61444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3008,
+              "lon": -4.61444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.593611,
+              "lon": -4.636667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.300833,
+              "lon": -4.614444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.300833,
+              "lon": -4.614444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.300833,
+              "lon": -4.614444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.593611,
+              "lon": -4.636667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.300833,
+              "lon": -4.614444,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5419,
+              "lon": -5.07417,
+              "fecha": "1982-10",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.9417,
+              "lon": -4.49806,
+              "fecha": "1982-10",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.9417,
+              "lon": -4.49806,
+              "fecha": "1982-10",
+              "pais": "Spain"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Phaseolus vulgaris": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Phaseolus vulgaris",
+          "nombre_aceptado": "Phaseolus vulgaris L.",
+          "taxonKey": 5350452,
+          "disponible": true,
+          "total": 26,
+          "puntos": [
+            {
+              "lat": 37.6144,
+              "lon": -4.32778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.0275,
+              "lon": -4.38,
+              "fecha": "2006-10-26",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.614444,
+              "lon": -4.327778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.0275,
+              "lon": -4.38,
+              "fecha": "2006-10-26",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.614444,
+              "lon": -4.327778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.0275,
+              "lon": -4.38,
+              "fecha": "2006-10-26",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3878,
+              "lon": -4.96583,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3878,
+              "lon": -4.96583,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3878,
+              "lon": -4.96583,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.593611,
+              "lon": -4.636667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.593611,
+              "lon": -4.636667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.387778,
+              "lon": -4.965833,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.3894,
+              "lon": -4.77083,
+              "fecha": "1984-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3878,
+              "lon": -4.96583,
+              "fecha": null,
+              "pais": "Spain"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Solanum lycopersicum": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Solanum lycopersicum",
+          "nombre_aceptado": "Solanum lycopersicum L.",
+          "taxonKey": 2930137,
+          "disponible": true,
+          "total": 131,
+          "puntos": [
+            {
+              "lat": 37.874181,
+              "lon": -4.785503,
+              "fecha": "2025-06-29T12:11:06",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.927329,
+              "lon": -4.80273,
+              "fecha": "2024-05-12T13:28:26",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.874488,
+              "lon": -4.77828,
+              "fecha": "2024-10-25T11:22:19",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.895737,
+              "lon": -4.757513,
+              "fecha": "2020-06-01",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.6144,
+              "lon": -4.32778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.6144,
+              "lon": -4.32778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.614444,
+              "lon": -4.327778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.614444,
+              "lon": -4.327778,
+              "fecha": "2006-10-25",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3878,
+              "lon": -4.96583,
+              "fecha": "2006-11-29",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.7006,
+              "lon": -4.89278,
+              "fecha": "2006-11-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.5936,
+              "lon": -4.63667,
+              "fecha": "2006-11-15",
+              "pais": "Spain"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Plumeria rubra": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Plumeria rubra",
+          "nombre_aceptado": "Plumeria rubra L.",
+          "taxonKey": 3169674,
+          "disponible": true,
+          "total": 0,
+          "puntos": [],
+          "limite_mostrado": 0,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Arabidopsis thaliana": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Arabidopsis thaliana",
+          "nombre_aceptado": "Arabidopsis thaliana (L.) Heynh.",
+          "taxonKey": 3052436,
+          "disponible": true,
+          "total": 41,
+          "puntos": [
+            {
+              "lat": 38.06,
+              "lon": -4.28,
+              "fecha": "2007-03-17",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.02,
+              "lon": -4.31,
+              "fecha": "2007-03-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38,
+              "lon": -4.3,
+              "fecha": "2000-03-07",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.07,
+              "lon": -5.01,
+              "fecha": "1992-04-24",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.88,
+              "lon": -4.83,
+              "fecha": "1991-03-13",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.97,
+              "lon": -4.86,
+              "fecha": "1991-03-26",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.19,
+              "lon": -5.01,
+              "fecha": "1991-04-07",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.04,
+              "lon": -4.43,
+              "fecha": "1991-04-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.0649,
+              "lon": -4.2894,
+              "fecha": "1989-03-16",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.84,
+              "lon": -5.24,
+              "fecha": "1988-03-15",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.86,
+              "lon": -4.79,
+              "fecha": "1987-03-24",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.89,
+              "lon": -4.88,
+              "fecha": "1986-05-01",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.05,
+              "lon": -5.05,
+              "fecha": "1984-04-14",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.3,
+              "lon": -5.27,
+              "fecha": "1983-04-04",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38.11,
+              "lon": -5.05,
+              "fecha": "1983-04-06",
+              "pais": "Spain"
+            },
+            {
+              "lat": 38,
+              "lon": -5.04,
+              "fecha": "1983-04-06",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.85,
+              "lon": -4.9,
+              "fecha": "1982-03-16",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.67,
+              "lon": -4.93,
+              "fecha": "1979-02-13",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.95,
+              "lon": -4.96,
+              "fecha": "1979-02-24",
+              "pais": "Spain"
+            },
+            {
+              "lat": 37.54,
+              "lon": -5.05,
+              "fecha": "1979-04-05",
+              "pais": "Spain"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        }
+      }
+    },
+    {
+      "id": "oaxaca",
+      "name": "Oaxaca",
+      "country": "México",
+      "lat": 17.073,
+      "lon": -96.726,
+      "clima": {
+        "fuente": "Open-Meteo Historical Weather API",
+        "periodo": {
+          "start": "2025-11-14",
+          "end": "2026-11-13"
+        },
+        "dias": 365,
+        "temperatura_media_c": 19.85,
+        "precipitacion_total_mm": 806.3,
+        "radiacion_media_mj_m2_dia": 22.56
+      },
+      "suelo": {
+        "coordenadas": {
+          "lat": 17.073,
+          "lon": -96.726
+        },
+        "fuente": "ISRIC SoilGrids v2.0",
+        "profundidad": "0-5 cm",
+        "propiedades": {
+          "clay": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "phh2o": {
+            "valor": null,
+            "unidad": "pH*10"
+          },
+          "sand": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "soc": {
+            "valor": null,
+            "unidad": "dg/kg"
+          }
+        },
+        "atribucion": "ISRIC SoilGrids"
+      },
+      "ocurrencias": {
+        "Zea mays": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Zea mays",
+          "nombre_aceptado": "Zea mays L.",
+          "taxonKey": 5290052,
+          "disponible": true,
+          "total": 1685,
+          "puntos": [
+            {
+              "lat": 16.781052,
+              "lon": -96.615249,
+              "fecha": "2023-06-19T12:45:58",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.168618,
+              "lon": -96.775304,
+              "fecha": "2022-07-14",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.168618,
+              "lon": -96.775304,
+              "fecha": "2022-07-14",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.096405,
+              "lon": -96.701625,
+              "fecha": "2021-04-12T17:17:38.103Z",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.563889,
+              "lon": -96.547222,
+              "fecha": "2009-05-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.563611,
+              "lon": -96.55,
+              "fecha": "2009-05-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.563611,
+              "lon": -96.55,
+              "fecha": "2009-05-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.563611,
+              "lon": -96.55,
+              "fecha": "2009-05-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.563611,
+              "lon": -96.55,
+              "fecha": "2009-05-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.31083,
+              "lon": -96.44417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.14417,
+              "lon": -96.54417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.14417,
+              "lon": -96.54417,
+              "fecha": "2005-01-10",
+              "pais": "Mexico"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Phaseolus vulgaris": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Phaseolus vulgaris",
+          "nombre_aceptado": "Phaseolus vulgaris L.",
+          "taxonKey": 5350452,
+          "disponible": true,
+          "total": 434,
+          "puntos": [
+            {
+              "lat": 16.777958,
+              "lon": -96.616033,
+              "fecha": "2025-01-04T21:56",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.086537,
+              "lon": -96.762055,
+              "fecha": "2020-08-28T13:28:34",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.991483,
+              "lon": -96.778846,
+              "fecha": "2020-10-12T14:05:54Z",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.997181,
+              "lon": -96.760971,
+              "fecha": "2020-10-22T15:08:04Z",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.158333,
+              "lon": -96.713611,
+              "fecha": "2020-11-15T00:18",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.145355,
+              "lon": -96.743994,
+              "fecha": "2017-10-04T17:44",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.336424,
+              "lon": -96.258398,
+              "fecha": "2016",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.27,
+              "lon": -96.47,
+              "fecha": "2014",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.27,
+              "lon": -96.47,
+              "fecha": "2014",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.27,
+              "lon": -96.47,
+              "fecha": "2014",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.533286,
+              "lon": -96.554096,
+              "fecha": "2013",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.504759,
+              "lon": -96.548872,
+              "fecha": "2013",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.04931,
+              "lon": -96.8969,
+              "fecha": "2011-10-20",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.9,
+              "lon": -96.47,
+              "fecha": "2007",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.236667,
+              "lon": -96.864444,
+              "fecha": "2004-05-14",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.099258,
+              "lon": -96.648289,
+              "fecha": "2004-11-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.10861,
+              "lon": -96.6386,
+              "fecha": "2004-11-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.099258,
+              "lon": -96.648289,
+              "fecha": "2004-11-26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.691667,
+              "lon": -97.208333,
+              "fecha": "1998-11-17",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.806747,
+              "lon": -97.050767,
+              "fecha": "1998-11-17",
+              "pais": "Mexico"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Solanum lycopersicum": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Solanum lycopersicum",
+          "nombre_aceptado": "Solanum lycopersicum L.",
+          "taxonKey": 2930137,
+          "disponible": true,
+          "total": 53,
+          "puntos": [
+            {
+              "lat": 16.952408,
+              "lon": -96.45199,
+              "fecha": "2025-01-01T15:56:33",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.949835,
+              "lon": -96.453245,
+              "fecha": "2025-01-01T16:05:47",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.79406,
+              "lon": -96.628665,
+              "fecha": "2025-01-22T15:37:33",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.061039,
+              "lon": -96.723191,
+              "fecha": "2025-12-03T16:10:36",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.027322,
+              "lon": -96.720226,
+              "fecha": "2024-02-09T11:10:27",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.109887,
+              "lon": -96.697436,
+              "fecha": "2024-09-08T17:56",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.037587,
+              "lon": -96.516261,
+              "fecha": "2024-12-28T09:05:18",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.082775,
+              "lon": -96.725938,
+              "fecha": "2024-12-22T16:53:30",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.189324,
+              "lon": -96.641301,
+              "fecha": "2023-06-17T12:57:43",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.195956,
+              "lon": -96.765144,
+              "fecha": "2023-11-02T13:44",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.101262,
+              "lon": -96.760098,
+              "fecha": "2021-03-01T10:02:53Z",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.077637,
+              "lon": -96.746708,
+              "fecha": "2021-03-01T12:31:28",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.063839,
+              "lon": -96.720292,
+              "fecha": "2021-07-09T08:11:38",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.033893,
+              "lon": -96.732044,
+              "fecha": "2021-10-31T16:59",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.438182,
+              "lon": -96.286822,
+              "fecha": "2019-01-15T16:31",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.878333,
+              "lon": -96.316667,
+              "fecha": "2019-03-23T19:36",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.042203,
+              "lon": -96.707172,
+              "fecha": "2014-03-16T18:25Z",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.513333,
+              "lon": -96.324722,
+              "fecha": "1998-08-21",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.513336,
+              "lon": -96.324729,
+              "fecha": "1998-08-21",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.51333,
+              "lon": -96.32472,
+              "fecha": "1998-08-21",
+              "pais": "Mexico"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Plumeria rubra": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Plumeria rubra",
+          "nombre_aceptado": "Plumeria rubra L.",
+          "taxonKey": 3169674,
+          "disponible": true,
+          "total": 78,
+          "puntos": [
+            {
+              "lat": 17.069619,
+              "lon": -96.723656,
+              "fecha": "2026-01-28T11:28:27",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.03717,
+              "lon": -96.516267,
+              "fecha": "2026-01-13T18:26:44",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.86685,
+              "lon": -96.27693,
+              "fecha": "2026-03-16T10:49:48",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.067022,
+              "lon": -96.722506,
+              "fecha": "2026-04-08T16:17:32",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.068097,
+              "lon": -96.679803,
+              "fecha": "2026-04-25T15:22:27",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.044064,
+              "lon": -96.768933,
+              "fecha": "2026-05-02T14:47:55",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.792793,
+              "lon": -96.624996,
+              "fecha": "2026-05-16T16:39:25",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.073178,
+              "lon": -96.726589,
+              "fecha": "2026-06-06T13:17:12",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.056122,
+              "lon": -96.724981,
+              "fecha": "2026-06-09T13:24:45",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.056142,
+              "lon": -96.725058,
+              "fecha": "2026-06-08T08:43:57",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.316597,
+              "lon": -96.442597,
+              "fecha": "2026-08-04T07:46:26",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.060859,
+              "lon": -96.713934,
+              "fecha": "2026-08-30T12:14:57",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.072931,
+              "lon": -96.715363,
+              "fecha": "2026-09-07T18:06:29",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.862663,
+              "lon": -96.276833,
+              "fecha": "2025-03-24T12:19:01",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.863461,
+              "lon": -96.275709,
+              "fecha": "2025-04-14T06:18:16",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 17.025347,
+              "lon": -96.521605,
+              "fecha": "2025-07-26T13:16:20",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.918919,
+              "lon": -96.369298,
+              "fecha": "2025-12-26T15:17:57",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.865756,
+              "lon": -96.276665,
+              "fecha": "2024-03-26T12:22:42",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.871095,
+              "lon": -96.281117,
+              "fecha": "2024-07-25T10:09",
+              "pais": "Mexico"
+            },
+            {
+              "lat": 16.936505,
+              "lon": -96.420722,
+              "fecha": "2024-09-28T07:08:16",
+              "pais": "Mexico"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Arabidopsis thaliana": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Arabidopsis thaliana",
+          "nombre_aceptado": "Arabidopsis thaliana (L.) Heynh.",
+          "taxonKey": 3052436,
+          "disponible": true,
+          "total": 0,
+          "puntos": [],
+          "limite_mostrado": 0,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        }
+      }
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "country": "Kenia",
+      "lat": -1.292,
+      "lon": 36.822,
+      "clima": {
+        "fuente": "Open-Meteo Historical Weather API",
+        "periodo": {
+          "start": "2025-11-14",
+          "end": "2026-11-13"
+        },
+        "dias": 365,
+        "temperatura_media_c": 19.47,
+        "precipitacion_total_mm": 923.1,
+        "radiacion_media_mj_m2_dia": 21.41
+      },
+      "suelo": {
+        "coordenadas": {
+          "lat": -1.292,
+          "lon": 36.822
+        },
+        "fuente": "ISRIC SoilGrids v2.0",
+        "profundidad": "0-5 cm",
+        "propiedades": {
+          "clay": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "phh2o": {
+            "valor": null,
+            "unidad": "pH*10"
+          },
+          "sand": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "soc": {
+            "valor": null,
+            "unidad": "dg/kg"
+          }
+        },
+        "atribucion": "ISRIC SoilGrids"
+      },
+      "ocurrencias": {
+        "Zea mays": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Zea mays",
+          "nombre_aceptado": "Zea mays L.",
+          "taxonKey": 5290052,
+          "disponible": true,
+          "total": 2,
+          "puntos": [
+            {
+              "lat": -0.972146,
+              "lon": 36.900377,
+              "fecha": "2026-01-04T13:48:49",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -0.968217,
+              "lon": 36.901114,
+              "fecha": "2026-01-04T14:03:54",
+              "pais": "Kenya"
+            }
+          ],
+          "limite_mostrado": 2,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Phaseolus vulgaris": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Phaseolus vulgaris",
+          "nombre_aceptado": "Phaseolus vulgaris L.",
+          "taxonKey": 5350452,
+          "disponible": true,
+          "total": 24,
+          "puntos": [
+            {
+              "lat": -1.732556,
+              "lon": 36.856123,
+              "fecha": "2022-02-13T14:36:37.672Z",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -0.838636,
+              "lon": 36.340511,
+              "fecha": "2021-12-15T07:04:51.712Z",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -0.8395,
+              "lon": 36.82925,
+              "fecha": "2018-10-16",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.3167,
+              "lon": 36.8,
+              "fecha": "1969-06-15",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.3167,
+              "lon": 36.8,
+              "fecha": "1969-06-15",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.3167,
+              "lon": 36.8,
+              "fecha": "1969-06-15",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.2833,
+              "lon": 36.8167,
+              "fecha": "1953-01-01",
+              "pais": "Kenya"
+            }
+          ],
+          "limite_mostrado": 20,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Solanum lycopersicum": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Solanum lycopersicum",
+          "nombre_aceptado": "Solanum lycopersicum L.",
+          "taxonKey": 2930137,
+          "disponible": true,
+          "total": 14,
+          "puntos": [
+            {
+              "lat": -1.263249,
+              "lon": 36.843758,
+              "fecha": "2026-05-14T13:26:16",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.385036,
+              "lon": 36.766459,
+              "fecha": "2026-10-13T14:53:01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.385023,
+              "lon": 36.766413,
+              "fecha": "2026-10-13T14:53:34",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.385568,
+              "lon": 36.766008,
+              "fecha": "2026-10-13T15:16:51",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.40287,
+              "lon": 36.885097,
+              "fecha": "2025-02-08T12:16:24",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.298825,
+              "lon": 36.78135,
+              "fecha": "2024-01-13T10:45:31",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -0.887657,
+              "lon": 36.383693,
+              "fecha": "2024-02-24T12:42:53",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.273636,
+              "lon": 36.804074,
+              "fecha": "2024-09-26T16:43:24",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.267508,
+              "lon": 36.820792,
+              "fecha": "2023-04-19T17:28:54",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.263604,
+              "lon": 36.827747,
+              "fecha": "2023-11-25T11:11:07",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.339426,
+              "lon": 36.732517,
+              "fecha": "2023-11-26T10:40",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.263982,
+              "lon": 36.804547,
+              "fecha": "2022-06-20T18:33:01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.265188,
+              "lon": 36.805757,
+              "fecha": "2022-06-19T10:17:21",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.289726,
+              "lon": 36.759927,
+              "fecha": "2022-08-14T19:40:19",
+              "pais": "Kenya"
+            }
+          ],
+          "limite_mostrado": 14,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Plumeria rubra": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Plumeria rubra",
+          "nombre_aceptado": "Plumeria rubra L.",
+          "taxonKey": 3169674,
+          "disponible": true,
+          "total": 2,
+          "puntos": [
+            {
+              "lat": -1.216,
+              "lon": 36.804613,
+              "fecha": "2025-11-05T17:56:58",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.214942,
+              "lon": 36.80677,
+              "fecha": "2022-05-08T18:35:24",
+              "pais": "Kenya"
+            }
+          ],
+          "limite_mostrado": 2,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Arabidopsis thaliana": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Arabidopsis thaliana",
+          "nombre_aceptado": "Arabidopsis thaliana (L.) Heynh.",
+          "taxonKey": 3052436,
+          "disponible": true,
+          "total": 2,
+          "puntos": [
+            {
+              "lat": -1.17614,
+              "lon": 36.34887,
+              "fecha": "1997-06-01",
+              "pais": "Kenya"
+            },
+            {
+              "lat": -1.110278,
+              "lon": 36.389444,
+              "fecha": "1997-06-01",
+              "pais": "Kenya"
+            }
+          ],
+          "limite_mostrado": 2,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        }
+      }
+    },
+    {
+      "id": "brasilia",
+      "name": "Brasilia",
+      "country": "Brasil",
+      "lat": -15.794,
+      "lon": -47.882,
+      "clima": {
+        "fuente": "Open-Meteo Historical Weather API",
+        "periodo": {
+          "start": "2025-11-14",
+          "end": "2026-11-13"
+        },
+        "dias": 365,
+        "temperatura_media_c": 22.44,
+        "precipitacion_total_mm": 1492.3,
+        "radiacion_media_mj_m2_dia": 20.05
+      },
+      "suelo": {
+        "coordenadas": {
+          "lat": -15.794,
+          "lon": -47.882
+        },
+        "fuente": "ISRIC SoilGrids v2.0",
+        "profundidad": "0-5 cm",
+        "propiedades": {
+          "clay": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "phh2o": {
+            "valor": null,
+            "unidad": "pH*10"
+          },
+          "sand": {
+            "valor": null,
+            "unidad": "g/kg"
+          },
+          "soc": {
+            "valor": null,
+            "unidad": "dg/kg"
+          }
+        },
+        "atribucion": "ISRIC SoilGrids"
+      },
+      "ocurrencias": {
+        "Zea mays": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Zea mays",
+          "nombre_aceptado": "Zea mays L.",
+          "taxonKey": 5290052,
+          "disponible": true,
+          "total": 4,
+          "puntos": [
+            {
+              "lat": -15.681314,
+              "lon": -47.858635,
+              "fecha": "2025-03-03T12:42:24",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.773556,
+              "lon": -47.760203,
+              "fecha": "2021-11-13T20:24:44.792Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.825257,
+              "lon": -47.802737,
+              "fecha": "2021-11-03T17:16:26.627Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.690007,
+              "lon": -48.215565,
+              "fecha": "2021-11-21T20:20:24.948Z",
+              "pais": "Brazil"
+            }
+          ],
+          "limite_mostrado": 4,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Phaseolus vulgaris": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Phaseolus vulgaris",
+          "nombre_aceptado": "Phaseolus vulgaris L.",
+          "taxonKey": 5350452,
+          "disponible": true,
+          "total": 1,
+          "puntos": [
+            {
+              "lat": -15.75,
+              "lon": -47.75,
+              "fecha": "1980-04-28",
+              "pais": "Brazil"
+            }
+          ],
+          "limite_mostrado": 1,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Solanum lycopersicum": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Solanum lycopersicum",
+          "nombre_aceptado": "Solanum lycopersicum L.",
+          "taxonKey": 2930137,
+          "disponible": true,
+          "total": 14,
+          "puntos": [
+            {
+              "lat": -15.797592,
+              "lon": -47.862892,
+              "fecha": "2026-06-08T16:21:35",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.819357,
+              "lon": -48.082789,
+              "fecha": "2023-01-29T10:12:03",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.5959,
+              "lon": -48.1449,
+              "fecha": "2023-07-20T00:00Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.817178,
+              "lon": -47.88928,
+              "fecha": "2023-11-07T10:29:53",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.9706,
+              "lon": -47.8915,
+              "fecha": "2023-11-16T00:00Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.632288,
+              "lon": -47.922167,
+              "fecha": "2023-11-22T00:00Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.791267,
+              "lon": -47.920222,
+              "fecha": "2022-01-12T12:04:13",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.8452,
+              "lon": -48.030431,
+              "fecha": "2022-03-08T13:28",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.844093,
+              "lon": -47.988566,
+              "fecha": "2021-05-02T07:48:03Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.844173,
+              "lon": -47.988531,
+              "fecha": "2021-05-11T13:56:28Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.844278,
+              "lon": -47.988548,
+              "fecha": "2021-05-11T13:44:48Z",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.718258,
+              "lon": -47.876645,
+              "fecha": "2020-08-28T09:49:33",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.669736,
+              "lon": -47.854951,
+              "fecha": "2020-10-09T11:39:36",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.6175,
+              "lon": -47.5393,
+              "fecha": null,
+              "pais": "Brazil"
+            }
+          ],
+          "limite_mostrado": 14,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Plumeria rubra": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Plumeria rubra",
+          "nombre_aceptado": "Plumeria rubra L.",
+          "taxonKey": 3169674,
+          "disponible": true,
+          "total": 2,
+          "puntos": [
+            {
+              "lat": -15.948333,
+              "lon": -47.878889,
+              "fecha": "2018-09-26",
+              "pais": "Brazil"
+            },
+            {
+              "lat": -15.878639,
+              "lon": -47.964917,
+              "fecha": "1971-07-21",
+              "pais": "Brazil"
+            }
+          ],
+          "limite_mostrado": 2,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        },
+        "Arabidopsis thaliana": {
+          "fuente": "GBIF Occurrence API",
+          "nombre_consultado": "Arabidopsis thaliana",
+          "nombre_aceptado": "Arabidopsis thaliana (L.) Heynh.",
+          "taxonKey": 3052436,
+          "disponible": true,
+          "total": 0,
+          "puntos": [],
+          "limite_mostrado": 0,
+          "nota_espacial": "Total de GBIF dentro de una ventana rectangular aproximada de 1° × 1°; el número de puntos guardados está limitado a 20."
+        }
+      }
+    }
+  ]
+}

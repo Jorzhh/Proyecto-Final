@@ -1,0 +1,19 @@
+# Dependencias y temporales
+api/vendor/
+api/composer.phar
+api/config.local.php
+.vscode/
+.idea/
+*.log
+node_modules/
+dist/
+docx_qa/
+docx_qa_final/
+~$*.docx
+GUIA_PARA_PRESENTAR.docx
+Proyecto-Final-itchio.zip
+.env
+.env.local
+.env.production
+.env.*.local
+!.env.example

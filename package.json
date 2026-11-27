@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final-observatorio-global",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3006",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "package:itch": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-itch.ps1"
+  },
+  "devDependencies": {
+    "vite": "8.4.0"
+  },
+  "dependencies": {
+    "chart.js": "4.4.1",
+    "three": "0.160.0"
+  }
+}
